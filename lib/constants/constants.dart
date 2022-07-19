@@ -1,0 +1,12 @@
+import 'package:flutter/material.dart';
+String token="";
+const defaultColor = Colors.blue;
+List<String> nameOfProducts=[];
+List<String> imageOfProducts=[];
+List<dynamic> priceOfProducts=[];
+List<dynamic> colorOfProducts=[];
+String? colorChoose;
+const List<ColorSwatch> productColors = [Colors.red, Colors.teal, Colors.blue];
+int? totalPrice = 0;
+int numOfProductsInBasket=0;
+bool sameItem = false;
